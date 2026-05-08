@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sintarion Technologies Ltd | Advanced IT Consultancy Bristol</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <style>
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .font-mono { font-family: 'JetBrains Mono', monospace; }
+        
+        .hero-gradient {
+            background: radial-gradient(circle at 0% 0%, #1e1b4b 0%, #020617 100%);
+        }
+
+        .glass-nav {
+            background: rgba(2, 6, 23, 0.8);
+            backdrop-filter: blur(12px);
+        }
+
+        .purple-glow {
+            box-shadow: 0 0 30px rgba(139, 92, 246, 0.2);
+        }
+
+        .text-gradient {
+            background: linear-gradient(90deg, #a78bfa, #f472b6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-200 antialiased">
+
+    <nav class="fixed w-full z-50 glass-nav border-b border-slate-800/50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-indigo-600 rounded-lg flex items-center justify-center purple-glow">
+                    <i class="fas fa-microchip text-white text-xl"></i>
+                </div>
+                <div class="leading-none">
+                    <span class="text-xl font-extrabold tracking-tighter text-white block uppercase">SINTARION</span>
+                    <span class="text-[9px] uppercase tracking-[0.4em] font-bold text-indigo-400">Technologies Ltd</span>
+                </div>
+            </div>
+            <div class="hidden md:flex space-x-10 text-[10px] font-bold uppercase tracking-[0.3em] text-slate-400">
+                <a href="#home" class="hover:text-indigo-400 transition">Beranda</a>
+                <a href="#services" class="hover:text-indigo-400 transition">Solusi</a>
+                <a href="#about" class="hover:text-indigo-400 transition">Profil</a>
+                <a href="#contact" class="hover:text-indigo-400 transition">Kontak</a>
+            </div>
+            <a href="#contact" class="bg-indigo-600 hover:bg-indigo-500 text-white px-6 py-2 rounded-full text-[10px] font-bold uppercase tracking-widest transition shadow-lg shadow-indigo-600/20">
+                Hubungi Kami
+            </a>
+        </div>
+    </nav>
+
+    <header id="home" class="hero-gradient min-h-screen flex items-center pt-20 px-6 relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-96 h-96 bg-indigo-600/10 rounded-full blur-[120px] -mr-48 -mt-24"></div>
+        
+        <div class="max-w-7xl mx-auto w-full grid lg:grid-cols-2 gap-16 items-center relative z-10">
+            <div>
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 text-[10px] font-bold mb-8 uppercase tracking-widest">
+                    <span class="w-2 h-2 rounded-full bg-indigo-500 animate-pulse"></span> Bristol Tech Hub • UK
+                </div>
+                <h1 class="text-5xl md:text-7xl font-extrabold text-white mb-8 leading-[1.1] tracking-tighter">
+                    Navigasi <br><span class="text-gradient">Evolusi Digital</span> Masa Depan.
+                </h1>
+                <p class="text-lg text-slate-400 mb-10 leading-relaxed max-w-xl font-light">
+                    Sintarion Technologies Limited menghadirkan konsultasi IT strategis untuk membantu bisnis Anda beradaptasi, berinovasi, dan mendominasi di era teknologi yang terus berubah.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#services" class="bg-indigo-600 text-white px-10 py-4 rounded-xl font-bold uppercase text-[11px] tracking-widest hover:bg-indigo-500 transition-all transform hover:-translate-y-1 shadow-xl shadow-indigo-600/20">
+                        Eksplorasi Solusi
+                    </a>
+                    <a href="#about" class="bg-slate-800/50 backdrop-blur-md text-white px-10 py-4 rounded-xl font-bold uppercase text-[11px] tracking-widest border border-slate-700 hover:bg-slate-700 transition-all">
+                        Tentang Kami
+                    </a>
+                </div>
+            </div>
+            <div class="hidden lg:block relative">
+                <div class="p-4 bg-slate-900/50 rounded-3xl border border-slate-800 shadow-2xl overflow-hidden group">
+                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop" alt="IT Consulting" class="rounded-2xl opacity-70 group-hover:opacity-100 transition duration-700 grayscale group-hover:grayscale-0">
+                </div>
+                <div class="absolute -bottom-6 -left-6 bg-indigo-600 p-6 rounded-2xl shadow-2xl border border-indigo-400/30">
+                    <p class="font-mono text-white text-2xl font-bold">SIC 62020</p>
+                    <p class="text-indigo-200 text-[9px] uppercase tracking-widest font-bold">IT Consultancy Specialist</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="services" class="py-32 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-24">
+                <h2 class="text-3xl md:text-5xl font-extrabold text-white mb-6 uppercase tracking-tight">Keahlian Strategis</h2>
+                <div class="w-20 h-1 bg-indigo-600 mx-auto rounded-full"></div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-10 bg-slate-900/30 rounded-3xl border border-slate-800/50 hover:border-indigo-500/50 transition-all duration-300 group shadow-lg">
+                    <div class="w-14 h-14 bg-indigo-900/30 text-indigo-400 rounded-xl flex items-center justify-center mb-8 group-hover:bg-indigo-600 group-hover:text-white transition-all">
+                        <i class="fas fa-layer-group text-2xl"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-4 text-white uppercase tracking-tight">System Architecture</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed font-light">Perancangan infrastruktur IT yang skalabel dan aman untuk mendukung pertumbuhan bisnis jangka panjang.</p>
+                </div>
+                <div class="p-10 bg-slate-900/30 rounded-3xl border border-slate-800/50 hover:border-indigo-500/50 transition-all duration-300 group shadow-lg">
+                    <div class="w-14 h-14 bg-indigo-900/30 text-indigo-400 rounded-xl flex items-center justify-center mb-8 group-hover:bg-indigo-600 group-hover:text-white transition-all">
+                        <i class="fas fa-shield-halved text-2xl"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-4 text-white uppercase tracking-tight">Digital Strategy</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed font-light">Konsultasi komprehensif untuk mendefinisikan peta jalan teknologi yang relevan dengan kebutuhan pasar global.</p>
+                </div>
+                <div class="p-10 bg-slate-900/30 rounded-3xl border border-slate-800/50 hover:border-indigo-500/50 transition-all duration-300 group shadow-lg">
+                    <div class="w-14 h-14 bg-indigo-900/30 text-indigo-400 rounded-xl flex items-center justify-center mb-8 group-hover:bg-indigo-600 group-hover:text-white transition-all">
+                        <i class="fas fa-brain text-2xl"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-4 text-white uppercase tracking-tight">Cloud Integration</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed font-light">Optimalisasi alur kerja bisnis melalui integrasi sistem berbasis cloud yang cerdas dan efisien.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-32 px-6 bg-slate-900/20 relative">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-16">
+            <div class="md:w-1/2">
+                <h3 class="text-3xl md:text-5xl font-extrabold text-white mb-8 leading-tight">Berakar di Redland, <br><span class="text-indigo-400">Inovasi Mendunia.</span></h3>
+                <p class="text-slate-400 mb-8 leading-relaxed font-light text-lg italic">"Kami percaya bahwa teknologi terbaik adalah teknologi yang memberikan solusi nyata bagi tantangan bisnis yang paling rumit."</p>
+                <div class="grid grid-cols-2 gap-8 border-l border-slate-800 pl-8">
+                    <div>
+                        <p class="text-2xl font-bold text-white uppercase">Bristol</p>
+                        <p class="text-[9px] text-indigo-500 uppercase tracking-[0.3em] font-bold">Innovation Center HQ</p>
+                    </div>
+                    <div>
+                        <p class="text-2xl font-bold text-white uppercase">United Kingdom</p>
+                        <p class="text-[9px] text-indigo-500 uppercase tracking-[0.3em] font-bold">Registered Territory</p>
+                    </div>
+                </div>
+            </div>
+            <div class="md:w-1/2">
+                <div class="p-8 bg-slate-900/50 rounded-3xl border border-slate-800 relative">
+                    <p class="font-mono text-indigo-400 text-xs mb-4 uppercase">> sintarion_identity_init</p>
+                    <p class="text-slate-300 text-lg leading-relaxed mb-6 font-light">Berlokasi di **29 Elmgrove Road, Redland**, Sintarion Technologies beroperasi di jantung distrik profesional Bristol untuk melayani klien korporasi dengan standar integritas tertinggi.</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center">
+                            <i class="fas fa-check text-white text-xs"></i>
+                        </div>
+                        <span class="text-sm font-bold uppercase tracking-widest text-slate-100">UK Compliance Assured</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="py-32 px-6 bg-slate-950 border-t border-slate-900">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl md:text-6xl font-extrabold text-white mb-10 tracking-tighter uppercase">Connect With Us</h2>
+            <p class="text-slate-500 mb-16 text-lg font-light leading-relaxed">Hubungi konsultan kami untuk diskusi strategis mengenai transformasi teknologi perusahaan Anda.</p>
+            
+            <div class="grid md:grid-cols-2 gap-8 text-left mb-20">
+                <div class="p-10 bg-slate-900/30 border border-slate-800 rounded-3xl group hover:border-indigo-500 transition-all duration-500">
+                    <p class="text-indigo-500 text-[10px] uppercase tracking-widest mb-6 font-bold">Registered Office</p>
+                    <p class="text-slate-200 font-bold leading-relaxed italic">29 Elmgrove Road, Redland, Bristol, BS6 6AJ, United Kingdom</p>
+                </div>
+                <div class="p-10 bg-slate-900/30 border border-slate-800 rounded-3xl group hover:border-indigo-500 transition-all duration-500 flex flex-col justify-center">
+                    <p class="text-indigo-500 text-[10px] uppercase tracking-widest mb-6 font-bold">Communication</p>
+                    <p class="text-slate-200 font-bold leading-relaxed">contact@sintarion.co.uk<br>Bristol Local Support Available</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center gap-10">
+                <div class="flex items-center gap-3">
+                    <div class="w-8 h-8 bg-indigo-600 rounded flex items-center justify-center">
+                        <i class="fas fa-microchip text-white text-xs"></i>
+                    </div>
+                    <span class="text-xs font-bold tracking-[0.5em] uppercase text-slate-100 leading-none">Sintarion Technologies Limited</span>
+                </div>
+                <p class="text-[9px] text-slate-600 uppercase tracking-[0.6em] font-bold">
+                    &copy; 2026 Sintarion Technologies Ltd. Registered in England & Wales.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
